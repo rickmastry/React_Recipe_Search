@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/rickmastry/React_Recipe_Search/static/css/main.236df570.chunk.css",
+    "main.js": "/rickmastry/React_Recipe_Search/static/js/main.a71a2446.chunk.js",
+    "main.js.map": "/rickmastry/React_Recipe_Search/static/js/main.a71a2446.chunk.js.map",
+    "runtime-main.js": "/rickmastry/React_Recipe_Search/static/js/runtime-main.966ca1c0.js",
+    "runtime-main.js.map": "/rickmastry/React_Recipe_Search/static/js/runtime-main.966ca1c0.js.map",
+    "static/js/2.6fe6f684.chunk.js": "/rickmastry/React_Recipe_Search/static/js/2.6fe6f684.chunk.js",
+    "static/js/2.6fe6f684.chunk.js.map": "/rickmastry/React_Recipe_Search/static/js/2.6fe6f684.chunk.js.map",
+    "index.html": "/rickmastry/React_Recipe_Search/index.html",
+    "precache-manifest.581c3046c9b8f2a01d086eadb3ee8c3c.js": "/rickmastry/React_Recipe_Search/precache-manifest.581c3046c9b8f2a01d086eadb3ee8c3c.js",
+    "service-worker.js": "/rickmastry/React_Recipe_Search/service-worker.js",
+    "static/css/main.236df570.chunk.css.map": "/rickmastry/React_Recipe_Search/static/css/main.236df570.chunk.css.map",
+    "static/js/2.6fe6f684.chunk.js.LICENSE.txt": "/rickmastry/React_Recipe_Search/static/js/2.6fe6f684.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.966ca1c0.js",
+    "static/js/2.6fe6f684.chunk.js",
+    "static/css/main.236df570.chunk.css",
+    "static/js/main.a71a2446.chunk.js"
+  ]
+}
