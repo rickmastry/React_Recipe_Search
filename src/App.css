@@ -160,11 +160,6 @@ h1 {
   font-size: 1.3rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -181,11 +176,44 @@ h1 {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+  @media only screen and (max-width: 768px) and (orientation : landscape){
+    html {
+      font-size: 42.5%;
+    }
+    .recipe {
+      width: 50rem;
+     
+    }
+
+    .search-form {
+      width: 50rem;
+    
+    }
+
+    .search-form input[type="text"] {
+     font-size:16px;
+    }
   }
-  to {
-    transform: rotate(360deg);
+
+  @media screen and (max-width: 748px) and (orientation : portrait){
+    html {
+      font-size: 32.5%;
+    }
+
+    .recipe {
+      width: 50rem;
+     
+    }
+
+    .search-form {
+      width: 40rem;
+    
+    }
+
+    .search-form input[type="text"] {
+      font-size:17px;
+     }
   }
-}
+
+

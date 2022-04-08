@@ -11,8 +11,7 @@ function App() {
   const [alert, setAlert] = useState("");
   const APP_ID = 'e6ec93d6';
   const APP_KEY = 'ee6b8ff7f62b441c7fad563dfda2baca';
-  const PROXY = 'https://cors-anywhere.herokuapp.com/'
-  const url = `${PROXY}https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
+  const url = `https://api.edamam.com/search?q=${query}&to=30&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
   const getData = async() => {
     if(query !== ""){
@@ -21,7 +20,6 @@ function App() {
         return setAlert('Your search did not give any results')
       }
       setRecipes(result.data.hits)
-      console.log(result);
       setAlert("");
       setQuery("");
     } else {
@@ -45,9 +43,9 @@ function App() {
         <input type="text" placeholder="Search Food" autoComplete="off" onChange={onChange} value={query}/>
         <input type="submit" value="search"/>
       </form>
+      <div id="edamam-badge" data-color="transparent"></div>
       <div className="recipes">
-  {recipes !== [] && recipes.map(recipe => <Recipe key={uuidv4()} recipe={recipe}/>
-          )}
+  {recipes !== [] && recipes.map(recipe => <Recipe key={uuidv4()} recipe={recipe}/>)}
       </div>
     </div>
   );
